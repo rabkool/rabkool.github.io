@@ -15,6 +15,6 @@ window.config = {
   ],
   github: {
     user: 'rabkool',
-    repo: 'blog'
+    repo: 'rabkool.github.io'
   }
 }
