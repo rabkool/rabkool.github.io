@@ -40,7 +40,7 @@ export default class Search extends React.Component {
     return (
       <div className={style.search}>
         <div className={style.header}>
-          <FormText tag="h1" value={this.state.keyword} className={style.input} placeholder="输入关键字搜索" onChange={::this.searchHandler} />
+          <FormText tag="h1" value= "" className={style.input} placeholder="输入关键字搜索" onChange={::this.searchHandler} />
         </div>
         <List {...this.props}></List>
       </div>
